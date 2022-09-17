@@ -27,3 +27,4 @@ console.log(randomizer.randomize('goodbye!'))
 //parameter 1 is returned if it didn't randomize a string
 
 ```
+- from tests/test.js
