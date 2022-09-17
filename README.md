@@ -1,7 +1,7 @@
 # random-txt
 Randomize strings easily based on RNG (Random Numbers Generator)
 
-Before using this module, you must put this on "node_modules"
+Before using this module, you must put this on "node_modules" folder.
 
 Sample Code to get started using random-txt:
 
