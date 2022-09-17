@@ -8,8 +8,8 @@ exports.random_txt = class Settings {
         if (!Array.isArray(this.txtArray)) {
             throw new Error('type "txtArray" is not an array')
         }
-        if (this.targetNum < this.maxNum) {
-            throw new Error('type "targetNum" should be lower than "maxNum"')
+        if (this.targetNum > this.maxNum || this.targetNum < 0) {
+            throw new Error('type "targetNum" should be lower than "maxNum" ot "targetNum" should be higher than 0')
         }
         let rand_num = Math.round(Math.random()*this.maxNum)
         let rand_txt = Math.round(Math.random()*this.txtArray.length + 1 / 2)
