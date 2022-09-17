@@ -1,0 +1,27 @@
+{
+  "name": "random-txt",
+  "version": "1.0.3",
+  "description": "Randomize strings easily based on RNG (Random Numbers Generator)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node ./tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fe4528/random-txt.git"
+  },
+  "keywords": [
+    "rng",
+    "random",
+    "txt"
+  ],
+  "author": "IronWorks / Fe4528",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fe4528/random-txt/issues"
+  },
+  "homepage": "https://github.com/Fe4528/random-txt#readme"
+}
